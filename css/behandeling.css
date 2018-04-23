@@ -1,10 +1,10 @@
 body {
-	background: #e3ecfc;
+	background: white;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 h1 {
-	font-family: Impact;
+	font-family: Syncopate;
 	font-style: 50px;
 	color: white;
 	margin: 0px;
@@ -14,9 +14,16 @@ h1 {
 }
 .content {
 	margin-left: 40px;
+	color: white;
+}
+.whitespace {
+	color: black;
+	font-family: Syncopate;
+	font-weight: 600;
+	font-size: 20px;
 }
 #box1 {
-	height: 100vh;
+	height: 85vh;
 	width: 100%;
 	background-image: url("../img/image1.jpg");
 	background-size: cover;
@@ -24,7 +31,7 @@ h1 {
 	background-attachment: fixed;
 }
 #box2 {
-	height: 100vh;
+	height: 85vh;
 	width: 100%;
 	background-image: url("../img/image2.jpg");
 	background-size: cover;
@@ -32,7 +39,7 @@ h1 {
 	background-attachment: fixed;
 }
 #box3 {
-	height: 100vh;
+	height: 85vh;
 	width: 100%;
 	background-image: url("../img/image3.jpg");
 	background-size: cover;
