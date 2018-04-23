@@ -21,16 +21,31 @@
     </div>
   </nav>
 
-  <div id="box1">
+  <div class="whitespace mt-1">
     <h1>Massage</h1>
   </div>
-  <div id="idk"></div>
-  <div id="box2">
-        <h1>Homopatie</h1>
+  <div id="box1">
+    <div class="content">
+      
+    </div>
   </div>
-    <div id="idk"></div>
+
+  <div class="whitespace mt-1">
+    <h1>Homopatie</h1>
+  </div>
+  <div id="box2">
+    <div class="content">
+      
+    </div>
+  </div>
+
+  <div class="whitespace mt-1">
+    <h1>Behandeling</h1>
+  </div>
   <div id="box3">
-        <div id="kanker"><h1>Kanker behandeling</h1></div>
+    <div class="content">
+      
+    </div>
   </div>
 
 </body>
