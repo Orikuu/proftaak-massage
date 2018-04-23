@@ -10,7 +10,7 @@
 <link rel="shortcut icon" href="img/OSSY.ico">
 <title>Care</title>
 </head>
-<body>
+<body onload="mainFadeIn()">
   <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand" href="#">Care</a>
     <div class="navbar-nav">
@@ -23,7 +23,11 @@
 
   <div class="maincontainer">
     <p class="welcome text-center">Welkom</p>
-    <div class="redirectbtn btn col-span-4">Behandeling</div>
+    <a class="redirectbtn btn col-span-4" href="behandeling.php">Behandeling</a>
   </div>
+
+
+  <script src="./assets/js/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
