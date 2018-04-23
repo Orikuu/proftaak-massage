@@ -5,7 +5,7 @@ body {
 #box1{
 	height: 100vh;
 	width: 100%;
-	background-image: url("../img/second.jpg");
+	background-image: url("../img/image1.jpg");
 	background-size: cover;
 	display: table;
 	background-attachment: fixed;
@@ -31,9 +31,9 @@ h1 {
 	font-style: 50px;
 	color: white;
 	margin: 0px;
-	text-align: center;
-		display: table-cell;
-		vertical-align: middle;
+	text-align: ;
+	display: table-cell;
+	vertical-align: top;
 }
 #idk{
 	height: 30px;

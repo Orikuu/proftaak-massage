@@ -22,15 +22,15 @@
   </nav>
 
   <div id="box1">
-    <h1>DAFT cration</h1>
+    <h1>Massage</h1>
   </div>
   <div id="idk"></div>
   <div id="box2">
-        <h1>DAFT cration</h1>
+        <h1>Homopatie</h1>
   </div>
     <div id="idk"></div>
   <div id="box3">
-        <h1>DAFT cration</h1>
+        <div id="kanker"><h1>Kanker behandeling</h1></div>
   </div>
 
 </body>
