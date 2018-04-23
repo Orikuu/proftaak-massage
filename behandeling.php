@@ -5,7 +5,7 @@
 <meta name="description" content="Portfolio">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/homepage.css">
+<link rel="stylesheet" href="./css/behandeling.css">
 <link rel="shortcut icon" href="img/OSSY.ico">
 <title>Care</title>
 </head>
@@ -20,5 +20,8 @@
       <a class="nav-item nav-link" href="#">Contact</a>
     </div>
   </nav>
+  <div class="parallax">
+  	Yo
+  </div>
 </body>
 </html>
