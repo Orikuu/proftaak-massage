@@ -1,13 +1,40 @@
-.parallax { 
-    /* The image used */
-    background-image: url("./images/second.jpg");
-
-    /* Set a specific height */
-    height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+	margin: 0;
+	padding: 0;
+}
+#box1{
+	height: 100vh;
+	width: 100%;
+	background-image: url("../img/second.jpg");
+	background-size: cover;
+	display: table;
+	background-attachment: fixed;
+}
+#box2{
+	height: 100vh;
+	width: 100%;
+	background-image: url("../img/image2.jpg");
+	background-size: cover;
+		display: table;
+			background-attachment: fixed;
+}
+#box3{
+	height: 100vh;
+	width: 100%;
+	background-image: url("../img/image3.jpg");
+	background-size: cover;
+		display: table;
+			background-attachment: fixed;
+}
+h1 {
+	font-family: Impact;
+	font-style: 50px;
+	color: white;
+	margin: 0px;
+	text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+}
+#idk{
+	height: 30px;
 }

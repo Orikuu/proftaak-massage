@@ -10,7 +10,7 @@
 <title>Care</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
     <a class="navbar-brand" href="#">Care</a>
 
     <div class="navbar-nav">
@@ -20,8 +20,18 @@
       <a class="nav-item nav-link" href="#">Contact</a>
     </div>
   </nav>
-  <div class="parallax">
-  	Yo
+
+  <div id="box1">
+    <h1>DAFT cration</h1>
   </div>
+  <div id="idk"></div>
+  <div id="box2">
+        <h1>DAFT cration</h1>
+  </div>
+    <div id="idk"></div>
+  <div id="box3">
+        <h1>DAFT cration</h1>
+  </div>
+
 </body>
 </html>
