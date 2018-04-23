@@ -14,8 +14,8 @@
     <a class="navbar-brand" href="#">Care</a>
 
     <div class="navbar-nav">
-      <a class="nav-item nav-link active" href="index.php">Home</a>
-      <a class="nav-item nav-link" href="behandeling.php">Behandeling</a>
+      <a class="nav-item nav-link" href="index.php">Home</a>
+      <a class="nav-item nav-link active" href="behandeling.php">Behandeling</a> 
       <a class="nav-item nav-link" href="#">Webshop</a>
       <a class="nav-item nav-link" href="#">Contact</a>
     </div>
