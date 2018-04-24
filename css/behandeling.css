@@ -38,7 +38,7 @@ body {
 	background-attachment: fixed;
 }
 #box3 {
-	height: calc(100vh - 230px);
+	height: calc(100vh - 220px);
 	width: 100%;
 	background-image: url("../img/image3.jpg");
 	background-size: cover;
