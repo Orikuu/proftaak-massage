@@ -7,9 +7,6 @@ body {
 .navbarbg {
 	background-color: #d6d9db;
 }
-#maincontainer {
-	overflow-y: scroll;
-}
 .content {
 	color: black;
 	width: 80%;

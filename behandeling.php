@@ -98,9 +98,9 @@
       </div>
       <div id="box6"></div>
     </div>
-    <?php include('./assets/html/footer.json') ?> 
+    <?php include('./assets/inc/footer.json') ?> 
   </div>
 
-  <?php include('./assets/html/scripts.json') ?>
+  <?php include('./assets/inc/scripts.json') ?>
 </body>
 </html>

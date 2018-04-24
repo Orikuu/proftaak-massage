@@ -27,6 +27,6 @@
   </div>
 
 
-  <?php include('./assets/html/scripts.json') ?>
+  <?php include('./assets/inc/scripts.json') ?>
 </body>
 </html>
