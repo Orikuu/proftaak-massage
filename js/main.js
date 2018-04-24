@@ -14,8 +14,9 @@ $(document).ready(function(){
 		
 		//Scroll and show anchor
 		$('html, body').animate({
+			// - 70 because the fixed header is 70px high. The title would be behind the header which isn't good.
 			'scrollTop': $target.offset().top - 70
-			}, 1000, 'swing', function() {
+			}, 1500, 'swing', function() {
 				window.location.hash = target;
 			});
 	});

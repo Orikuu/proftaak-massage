@@ -18,7 +18,7 @@
       <a class="nav-item nav-link" href="index.php">Home</a>
       <a class="nav-item nav-link active" href="behandeling.php">Behandeling</a> 
       <a class="nav-item nav-link" href="#">Webshop</a>
-      <a class="nav-item nav-link" href="#">Contact</a>
+      <a class="nav-item nav-link" href="contact.php">Contact</a>
     </div>
   </nav>
 
