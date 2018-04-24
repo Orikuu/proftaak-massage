@@ -8,7 +8,39 @@ body {
     overflow: hidden;
     margin: 0px;
 }
-.maincontainer {
-	margin: 0 auto;
-	text-align: center;
+@media only screen and (max-width: 575px) {
+	.col-sm {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+}
+
+h2 {
+	font-family: Syncopate;
+	font-weight: 900;
+}
+
+.col-sm {
+	border: 2px solid red;
+}
+form label {
+	font-family: Syncopate;
+	font-weight: 900;
+}
+form input {
+	width: 95%;
+	margin-bottom: 10px;
+	border-color: #d9a7c7;
+	border-radius: 15px;
+	padding: 5px;
+	outline-width: 0;
+}
+form textarea {
+	width: 95%;
+	margin-bottom: 10px;
+	border-color: #d9a7c7;
+	border-radius: 15px;
+	padding: 5px;
+	height: 100px;
+	outline-width: 0;
 }

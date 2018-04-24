@@ -3,21 +3,21 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
-                <h2 class="logo"><a href="#"> LOGO </a></h2>
+                <h2 class="logo"><a href="#">Care</a></h2>
             </div>
             <div class="col-sm-2">
-                <h5>Get started</h5>
+                <h5>Navigation</h5>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Sign up</a></li>
-                    <li><a href="#">Downloads</a></li>
+                    <li><a href="#">Behandeling</a></li>
+                    <li><a href="#">Webshop</a></li>
                 </ul>
             </div>
             <div class="col-sm-2">
                 <h5>About us</h5>
                 <ul>
-                    <li><a href="#">Company Information</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Massage praktijk Care</a></li>
+                    <li><a href="#">Tel: 0614294733</a></li>
                     <li><a href="#">Reviews</a></li>
                 </ul>
             </div>

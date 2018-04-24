@@ -12,7 +12,7 @@
 </head>
 <body>
   <nav class="navbarbg navbar navbar-expand-md navbar-light sticky-top">
-    <a class="navbar-brand" href="#">Care</a>
+    <a class="navbar-brand" href="index.php">Care</a>
 
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="index.php">Home</a>
