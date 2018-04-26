@@ -22,6 +22,7 @@
     </div>
   </nav>
 
+  <div id="topAnchor"></div>
   <div id="maincontainer">
     <ul class="nav justify-content-center">
       <li class="nav-item">

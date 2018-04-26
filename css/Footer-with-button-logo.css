@@ -1,3 +1,8 @@
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
 #myFooter {
     background-color: #fff;
     color: black;
@@ -95,13 +100,11 @@
     margin-top: 10px;
     line-height: 25px;
 }
-
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-}
 #myFooter{
    flex: 0 0 auto;
    -webkit-flex: 0 0 auto;
+}
+.goTop {
+    margin: 0 auto;
+    color: #007bff !important;
 }

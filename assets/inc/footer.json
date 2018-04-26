@@ -37,6 +37,7 @@
                 </div>
                 <button type="button" class="btn btn-default">Contact us</button>
             </div>
+            <a class="goTop nav-link active" href="#topAnchor">Go to Top!</a>
     </div>
     </div>
     <div class="footer-copyright">

@@ -4,7 +4,7 @@
 <meta charset="utf-8" />
 <meta name="description" content="#1 massage praktijk in Helmond.">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" />
 <link rel="shortcut icon" href="img/OSSY.ico">
 <link rel="stylesheet" href="./css/contact.css">
@@ -18,6 +18,15 @@
       <a class="nav-item nav-link" href="behandeling.php">Behandeling</a>
       <a class="nav-item nav-link" href="#">Webshop</a>
       <a class="nav-item nav-link active" href="contact.php">Contact</a>
+    </div>
+    
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Login
+      </button>
+      <div class="showdrop dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <?php include('./assets/inc/login.json') ?>
+      </div>
     </div>
   </nav>
 
@@ -33,28 +42,7 @@
         </ul>
       </div>
       <div class="col-sm ml-2">
-        <h2>Leave message</h2>
-
-        <form action="index.php" method="POST">
-          <!-- First name -->
-          <label id="first"> First name *</label><br/>
-          <input type="text" name="firstname"><br/>
-
-          <!-- Last name -->
-          <label id="first">Last name *</label><br/>
-          <input type="text" name="lastname"><br/>
-
-          <!-- Email -->
-          <label id="first">Email *</label><br/>
-          <input type="text" name="email"><br/>
-
-          <!-- Message -->
-          <label id="first">Message *</label><br/>
-          <textarea class=formMsg name="message"></textarea><br/>
-
-          <!-- Button to send to database -->
-          <button type="submit" name="save">save</button>
-        </form>
+        <?php include('./assets/inc/login.json') ?>
       </div>
     </div>
   </div>
