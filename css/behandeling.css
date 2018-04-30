@@ -1,5 +1,4 @@
 body {
-	overflow: hidden
 	background: white;
 	margin: 0;
 	padding: 0;
@@ -21,52 +20,4 @@ body {
 	font-family: Syncopate;
 	font-weight: 800;
 	font-size: 20px;
-}
-#box1 {
-	height: calc(100vh - 110px);
-	width: 100%;
-	background-image: url("../img/image1.jpg");
-	background-size: cover;
-	display: table;
-	background-attachment: fixed;
-}
-#box2 {
-	height: calc(100vh - 180px);
-	width: 100%;
-	background-image: url("../img/image2.jpg");
-	background-size: cover;
-	display: table;
-	background-attachment: fixed;
-}
-#box3 {
-	height: calc(100vh - 220px);
-	width: 100%;
-	background-image: url("../img/image3.jpg");
-	background-size: cover;
-	display: table;
-	background-attachment: fixed;
-}
-#box4 {
-	height: calc(100vh - 160px);
-	width: 100%;
-	background-image: url("../img/image4.jpg");
-	background-size: cover;
-	display: table;
-	background-attachment: fixed;
-}
-#box5 {
-	height: calc(100vh - 180px);
-	width: 100%;
-	background-image: url("../img/image5.jpg");
-	background-size: cover;
-	display: table;
-	background-attachment: fixed;
-}
-#box6 {
-	height: calc(100vh - 160px);
-	width: 100%;
-	background-image: url("../img/image6.jpg");
-	background-size: cover;
-	display: table;
-	background-attachment: fixed;
 }

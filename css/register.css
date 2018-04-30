@@ -8,27 +8,11 @@ body {
     background-attachment: fixed;
     margin: 0px;
 }
+.maincontainer a {
+    margin-top: -10px !important;
+    color: red !important;
+}
 .maincontainer {
 	margin: 0 auto;
 	text-align: center;
-}
-.welcome {
-	margin-top: 40vh;
-	font-family: Syncopate;
-	font-weight: 900;
-	font-size: 50px;
-	display: none;
-}
-.redirectbtn {
-	border-color: #d9a7c7;
-	border-width: 2px;
-	border-radius: 10px;
-	text-decoration: none;
-	color: gray;
-	display: none;
-}
-.redirectbtn:hover {
-	background-color: #d9a7c7;
-	transition: 1s;
-	color: gray;
 }
