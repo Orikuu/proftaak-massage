@@ -19,10 +19,8 @@
       <img class="avatar" src="./img/Fiji.jpg">
       <h1>Over Carrie.</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis recusandae. Illo temporibus dolorem, facere optio asperiores ratione expedita. Facilis ab harum impedit voluptatum officia adipisci delectus obcaecati deleniti maxime?</p>
-          <!-- Button to send to database -->
-          <input class="btn btn-light" type="submit" name="save" value="Send"/>
-        </form>
-      </div>
+
+
     </div>
   </div>
 
