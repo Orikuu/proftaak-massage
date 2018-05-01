@@ -33,7 +33,7 @@ require 'assets/php/functions.php';
   <div id="topAnchor"></div>
   <div id="maincontainer">
     <ul class="nav justify-content-center">
-      <?php foreach($result as $v) { ?>
+      <?php foreach($res as $v) { ?>
 
       <li class="nav-item">
         <!-- Go to anchor '<?php echo $v['image']; ?>' -->
@@ -42,7 +42,7 @@ require 'assets/php/functions.php';
       <?php } ?>
     </ul>
 
-    <?php foreach($result as $v) { ?>
+    <?php foreach($res as $v) { ?>
 
     <!-- <?php echo $v['title']; ?> tab -->
 
