@@ -36,17 +36,17 @@ if(isset($_POST['save']))
 
     if($lastname == "")
     {
-        $lastnameError = "Please enter your first name!";
+        $lastnameError = "Please enter your last name!";
     }
 
     if($username == "")
     {
-        $usernameError = "Please enter your first name!";
+        $usernameError = "Please enter your username!";
     }
 
     if($password == "")
     {
-        $passwordError = "Please enter your first name!";
+        $passwordError = "Please enter your password!";
     }
 
     // Count number of keys or indexes in $errorMessages
@@ -92,19 +92,18 @@ if(isset($_POST['save']))
             <!-- Insertion -->
             <p>Insertion</p>
             <input type="text" name="insertion" placeholder="Insertion">
-            <a><?php echo $lastnameError ?></a>
             <!-- Last name -->
             <p>Last name</p>
             <input type="text" name="lastname" placeholder="Last name">
-            <a><?php echo $usernameError ?></a>
+            <a><?php echo $lastnameError ?></a>
             <!-- Username -->
             <p>Username</p>
             <input type="text" name="username" placeholder="Usename">
-            <a><?php echo $passwordError ?></a>
+            <a><?php echo $usernameError ?></a>
             <!-- Password -->
             <p>Password</p>
             <input type="password" name="password" placeholder="Password">
-            <a><?php echo $firstnameError ?></a>
+            <a><?php echo $passwordError ?></a>
             <!-- Submit -->
             <input type="submit" name="save">
         </form>
