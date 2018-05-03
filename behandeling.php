@@ -1,7 +1,14 @@
 <?php 
 require 'assets/php/functions.php';
-?>
 
+// the SQL string that fetches data....
+$selectSQL = "SELECT `title`, `description`, `image`, `id` FROM `treatment`";
+// This is a prepared statement, not necessary with this simple query with no variables, but anyway...
+
+// run query and store the resource into variable
+$res = $conn->query($selectSQL);
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,15 +25,15 @@ require 'assets/php/functions.php';
 <body>
   <nav class="navbarbg navbar navbar-expand-md navbar-light sticky-top">
     <a class="navbar-brand" href="index.php">Care</a>
-
     <div class="navbar-nav">
       <a class="nav-item nav-link" href="index.php">Home</a>
       <a class="nav-item nav-link" href="behandeling.php">Behandeling</a> 
-      <a class="nav-item nav-link" href="#">Webshop</a>
+      <a class="nav-item nav-link" href="webshop.php">Webshop</a>
       <a class="nav-item nav-link" href="contact.php">Contact</a>
     </div>
     <div class="navbar-nav ml-auto">
         <a class="navlogin nav-item nav-link" href="login.php">Login</a>
+        <a class="navlogin nav-item nav-link" href="register.php">Register</a>
     </div>
   </nav>
 
