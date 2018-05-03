@@ -36,7 +36,7 @@ h1 {
 	background: transparent;
 	outline: none;
 	height: 40px;
-	color: #fff;
+	color: grey;
 	font-size: 16px;
 }
 .loginbox input[type="submit"] {
@@ -63,4 +63,7 @@ h1 {
 }
 .loginbox a:hover {
 	color: #ffc107;
+}
+.redUnder {
+	border-bottom: 1px solid red !important;
 }
