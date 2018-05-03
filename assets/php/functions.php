@@ -13,13 +13,6 @@ if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// the SQL string that fetches data....
-$selectSQL = "SELECT `title`, `description`, `image`, `id` FROM `treatment`";
-// This is a prepared statement, not necessary with this simple query with no variables, but anyway...
-
-// run query and store the resource into variable
-$res = $conn->query($selectSQL);
-
 //Custom vardump function. Thanks to Peter Nocker.
 function Dump($v)
 {

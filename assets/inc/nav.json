@@ -3,7 +3,7 @@
     <div class="navbar-nav">
         <a class="navhome nav-item nav-link" href="index.php">Home</a>
         <a class="navbehandeling nav-item nav-link" href="behandeling.php">Behandeling</a>
-        <a class="navwebshop nav-item nav-link" href="#">Webshop</a>
+        <a class="navwebshop nav-item nav-link" href="webshop.php">Webshop</a>
         <a class="navcontact nav-item nav-link" href="contact.php">Contact</a>
         <a class="navcontact nav-item nav-link" href="afspraak.php">Afspraak</a>
     </div>
