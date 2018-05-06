@@ -1,8 +1,21 @@
 <?php
 require 'assets/php/functions.php';
 
-
-
+//Check to see if they clicked Login
+if(isset($_POST['log']))
+{
+  //1. Check if the database has this username
+  $postuser = $_POST['username'];
+  $result = mysqli_query($conn, "SELECT username FROM users WHERE username = '".$postuser."'");
+  if (mysqli_num_rows($result)==0) {
+    //2. Check if the username has this password
+    $postpass = $_POST['password'];
+    $result2 = mysqli_query($conn, "SELECT password FROM users WHERE username = '".$postuser."' AND password = '".$postpass."'");
+    if (mysqli_num_rows($result2)==0) {
+      ?><script type="text/javascript">console.log('Successfully logged in!');</script><?php
+    }
+  }
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -18,7 +31,6 @@ require 'assets/php/functions.php';
 <title>Care</title>
 </head>
 <body>
-  
   <?php include('./assets/inc/nav.json') ?>
 
   <div class="maincontainer col-sm-6">
@@ -26,16 +38,17 @@ require 'assets/php/functions.php';
       <img class="avatar" src="./img/Fiji.jpg">
       <h1>Login</h1>
       
-      <form action="index.php" method="POST">
-      <!-- Username -->
-      <p>Username</p>
-      <input type="text" id="username" placeholder="Enter Usename">
-      <!-- Password -->
-      <p>Password</p>
-      <input type="password" id="password" placeholder="Enter Password">
-      <!-- Submit -->
-      <input type="submit" value="Login">
-    </form>
+      <!-- Login form -->
+      <form method="POST">
+        <!-- Username -->
+        <p>Username</p>
+        <input type="text" name="username" placeholder="Enter Usename">
+        <!-- Password -->
+        <p>Password</p>
+        <input type="password" name="password" placeholder="Enter Password">
+        <!-- Submit -->
+        <input type="submit" name="log" value="Login">
+      </form>
     </div>
   </div>
 

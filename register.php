@@ -1,17 +1,20 @@
 <?php 
 require 'assets/php/functions.php';
 
-// Check to see if form is submitted
+//Check to see if form is submitted
 if(isset($_POST['save']))
 {
     //Check if the database already has this username
     $postuser = $_POST['username'];
     $result = mysqli_query($conn, "SELECT username FROM users WHERE username = '".$postuser."'");
     if (mysqli_num_rows($result)==0) {
-        // SQL to send data to database.
+        //SQL to send data to database.
         $sql = "INSERT INTO users (firstname, insertion, lastname, username, password)
         VALUES ('".$_POST["firstname"]."','".$_POST["insertion"]."','".$_POST["lastname"]."','".$_POST["username"]."','".$_POST["password"]."')";
         $result = mysqli_query($conn,$sql);
+    }
+    else {
+        ?><script type="text/javascript">alert('This username is already in use.');</script><?php
     }
 }
 ?>
