@@ -41,6 +41,6 @@
     </div>
     </div>
     <div class="footer-copyright">
-        <p>Copyright © 2018 André Arguello & Tim van Bree, All rights reserved.</p>
+        <p>Copyright © 2018 André Arguello & <a class="devLink" href="http://localhost/My%20web/portfolio/">Tim van Bree</a>, All rights reserved.</p>
     </div>
 </footer>

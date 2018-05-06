@@ -8,10 +8,12 @@ body {
     background-attachment: fixed;
     margin: 0px;
 }
-.maincontainer {
-	margin: 0 auto;
-	text-align: center;
-}
-.avatar {
-	border-radius: 20%;
+.selectItem select {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: grey;
+	font-size: 16px;
 }

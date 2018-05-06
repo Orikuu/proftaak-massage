@@ -5,7 +5,7 @@ require 'assets/php/functions.php';
 $selectSQL = "SELECT `title`, `description`, `image`, `price`, `id` FROM `products` ORDER BY `id`";
 // This is a prepared statement, not necessary with this simple query with no variables, but anyway...
 
-// run query and store the resource into variable
+// Run query and store the resource into variable
 $res = $conn->query($selectSQL);
 
 ?>
@@ -33,7 +33,7 @@ $res = $conn->query($selectSQL);
           <div class="card-body">
             <h5 class="card-title"><?php echo $v['title']; ?></h5>
             <p class="card-text"><?php echo $v['description']; ?></p>
-            <img src="./img/cbd.jpg">
+            <img src="./img/<?php echo $v['image']; ?>.jpg">
             <a href="#" class="btn btn-primary">Add to cart</a>
           </div>
         </div>

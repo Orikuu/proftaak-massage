@@ -5,6 +5,20 @@ function mainFadeIn() {
     setTimeout(function(){ $('.redirectbtn').css('transition','2s') }, 2200);
 }
 
+//Check input data ( Register )
+function validateForm() {
+    var firstname 	= document.forms["register"]["firstname"].value;
+    var lastname 	= document.forms["register"]["lastname"].value;
+    var username 	= document.forms["register"]["username"].value;
+    var password 	= document.forms["register"]["password"].value;
+
+    //If any of the inputs is empty.
+    if (firstname == "" || lastname == "" || username == "" || password == "") {
+        //Dont send data to the PHP part.
+        return false;
+    }
+}
+
 //Anchor smooth scrolling
 $(document).ready(function(){
 	//Detect if the clicked object has a href that starts with #.

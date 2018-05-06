@@ -7,7 +7,7 @@
 	background-attachment: fixed;
 }
 #Sport {
-	height: calc(100vh - 180px);
+	height: calc(100vh - 160px);
 	width: 100%;
 	background-image: url("../img/image2.jpg");
 	background-size: cover;
@@ -15,7 +15,7 @@
 	background-attachment: fixed;
 }
 #Bindweefsel {
-	height: calc(100vh - 220px);
+	height: calc(100vh - 160px);
 	width: 100%;
 	background-image: url("../img/image3.jpg");
 	background-size: cover;
@@ -31,7 +31,7 @@
 	background-attachment: fixed;
 }
 #Voetreflex {
-	height: calc(100vh - 180px);
+	height: calc(100vh - 160px);
 	width: 100%;
 	background-image: url("../img/image5.jpg");
 	background-size: cover;
@@ -39,7 +39,7 @@
 	background-attachment: fixed;
 }
 #Dorn {
-	height: calc(100vh - 160px);
+	height: calc(100vh - 140px);
 	width: 100%;
 	background-image: url("../img/image6.jpg");
 	background-size: cover;

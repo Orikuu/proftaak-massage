@@ -30,6 +30,7 @@ $res = $conn->query($selectSQL);
       <a class="nav-item nav-link" href="behandeling.php">Behandeling</a> 
       <a class="nav-item nav-link" href="webshop.php">Webshop</a>
       <a class="nav-item nav-link" href="contact.php">Contact</a>
+      <a class="navcontact nav-item nav-link" href="afspraak.php">Afspraak</a>
     </div>
     <div class="navbar-nav ml-auto">
         <a class="navlogin nav-item nav-link" href="login.php">Login</a>
@@ -52,7 +53,6 @@ $res = $conn->query($selectSQL);
     <?php foreach($res as $v) { ?>
 
     <!-- <?php echo $v['title']; ?> tab -->
-
     <!-- Echo ID for anchor's reference -->
     <div id="<?php echo $v['id']; ?>">
       <div class="whitespace mt-3 text-center">
