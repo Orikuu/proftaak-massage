@@ -11,7 +11,6 @@
 <title>Care</title>
 </head>
 <body>
-
   <?php include('./assets/inc/nav.json') ?>
 
   <div class="maincontainer col-sm-6">

@@ -11,7 +11,6 @@
 <title>Care</title>
 </head>
 <body onload="mainFadeIn()">
-
   <?php include('./assets/inc/nav.json') ?>
 
   <div class="maincontainer">
