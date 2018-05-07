@@ -8,6 +8,7 @@
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Syncopate" />
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" href="./css/homepage.css">
+<link rel="stylesheet" href="./css/dark-mode.css">
 <title>Care</title>
 </head>
 <body onload="mainFadeIn()">

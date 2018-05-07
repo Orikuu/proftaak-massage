@@ -20,6 +20,7 @@ $res = $conn->query($selectSQL);
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" href="./css/behandeling.css">
 <link rel="stylesheet" href="./css/treatment.css">
+<link rel="stylesheet" href="./css/dark-mode.css">
 <title>Care</title>
 </head>
 <body>

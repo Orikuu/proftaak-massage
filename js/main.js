@@ -19,6 +19,23 @@ function validateForm() {
     }
 }
 
+document.getElementById('mode').addEventListener('change', function () {
+    if ($(this).prop('checked'))
+    {
+        $('nav').addClass('navbar-dark bg-dark');
+    }
+    else
+    {
+        $('nav').removeClass('navbar-dark bg-dark');
+    }
+    let darkThemeEnabled = document.body.classList.toggle('dark-theme');
+    localStorage.setItem('dark-theme-enabled', darkThemeEnabled);
+});
+
+if (JSON.parse(localStorage.getItem('dark-theme-enabled'))) {
+    document.body.classList.add('dark-theme');
+}
+
 //Anchor smooth scrolling
 $(document).ready(function(){
 	//Detect if the clicked object has a href that starts with #.

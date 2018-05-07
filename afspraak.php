@@ -9,6 +9,7 @@
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" href="./css/afspraak.css">
 <link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/dark-mode.css">
 <title>Care
 </title>
 </head>
@@ -30,7 +31,6 @@
           <option value="dorn">Dorn therapie</option>
         </select>
       </div>
-
       <!-- Username -->
       <p>Username</p>
       <input type="text" id="username" placeholder="Enter Username">
@@ -39,8 +39,6 @@
       <input type="password" id="password" placeholder="Enter Password">
     </form>
   </div>
-
-
   <?php include('./assets/inc/scripts.json') ?>
 </body>
 </html>

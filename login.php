@@ -28,6 +28,7 @@ if(isset($_POST['log']))
 <link rel="shortcut icon" href="img/favicon.ico">
 <link rel="stylesheet" href="./css/login.css">
 <link rel="stylesheet" href="./css/homepage.css">
+<link rel="stylesheet" href="./css/dark-mode.css">
 <title>Care</title>
 </head>
 <body>
