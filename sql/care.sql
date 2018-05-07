@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Gegenereerd op: 30 apr 2018 om 23:16
+-- Gegenereerd op: 07 mei 2018 om 06:50
 -- Serverversie: 5.7.19
 -- PHP-versie: 7.1.14
 
@@ -21,6 +21,28 @@ SET time_zone = "+00:00";
 --
 -- Database: `care`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `products`
+--
+
+CREATE TABLE `products` (
+  `title` varchar(99) NOT NULL,
+  `description` text NOT NULL,
+  `image` varchar(29) NOT NULL,
+  `price` int(5) NOT NULL,
+  `id` int(5) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `products`
+--
+
+INSERT INTO `products` (`title`, `description`, `image`, `price`, `id`) VALUES
+('CBD', 'Tim is nummer 1 in coderen', 'cbd', 160, 1),
+('Massage Olie', 'Goeie olie easy stone', 'oil', 80, 2);
 
 -- --------------------------------------------------------
 
@@ -67,12 +89,25 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`firstname`, `insertion`, `lastname`, `username`, `password`, `id`) VALUES
-('Tim', 'van', 'Bree', 'Oriku', '123', 1),
-('', '', '', '', '', 42);
+('Tim', 'van', 'Bree', 'Oriku', '123', 70),
+('', '', '', '', '', 74),
+('Tim', 'va', 'Bree', 'Sens', '123', 77),
+('juan', 'what is insertion', 'pepe', 'maigal', 'maigal', 78),
+('Users', 'test', 'test', 'test', 'test', 79),
+('aaaaaaaaaa', 'aaaaaaaaa', 'aaaaaaaaa', 'testulul', 'aaaaaaaa', 80),
+('AndrÃ©', 'hij', 'werkt', 'goed', 'nu', 81),
+('Tim', 'van', 'Bree', 'Hello', '1234', 82);
 
 --
 -- Indexen voor geëxporteerde tabellen
 --
+
+--
+-- Indexen voor tabel `products`
+--
+ALTER TABLE `products`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `image` (`image`);
 
 --
 -- Indexen voor tabel `treatment`
@@ -93,6 +128,12 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT voor een tabel `products`
+--
+ALTER TABLE `products`
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+--
 -- AUTO_INCREMENT voor een tabel `treatment`
 --
 ALTER TABLE `treatment`
@@ -102,7 +143,7 @@ ALTER TABLE `treatment`
 -- AUTO_INCREMENT voor een tabel `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=61;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
