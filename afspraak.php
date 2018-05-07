@@ -20,7 +20,7 @@
       <!-- Select field -->
       <p>Behandeling</p>
       <div class="selectItem input-group">
-        <select class="custom-select" id="inputGroupSelect01">
+        <select class="custom-select dropdown" id="inputGroupSelect01">
           <option selected>. . .</option>
           <option value="relax">Relax massage</option>
           <option value="sport">Sport massage</option>

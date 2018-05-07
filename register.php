@@ -38,7 +38,7 @@ if(isset($_POST['save']))
 
   <div class="maincontainer col-sm-6">
     <div class="loginbox">
-        <img class="avatar" src="./img/usericon.png">
+        <img class="avatar" src="./img/Fiji.jpg">
         <h1>Registreren</h1>
       
         <form name="register" method="POST">
@@ -58,7 +58,7 @@ if(isset($_POST['save']))
             <p>Password *</p>
             <input type="password" name="password" placeholder="Password" required>
             <!-- Submit + JS function -->
-            <input type="submit" name="save" onsubmit="validateForm()">
+            <input class="btn col-span-4" type="submit" name="save" onsubmit="validateForm()">
         </form>
     </div>
   </div>

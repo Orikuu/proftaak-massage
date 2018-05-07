@@ -47,7 +47,7 @@ if(isset($_POST['log']))
         <p>Password</p>
         <input type="password" name="password" placeholder="Enter Password">
         <!-- Submit -->
-        <input type="submit" name="log" value="Login">
+        <input class="btn col-span-4" type="submit" name="log" value="Login">
       </form>
     </div>
   </div>
