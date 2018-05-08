@@ -21,3 +21,7 @@ body {
 	font-weight: 800;
 	font-size: 20px;
 }
+/* Hides scrollbar but still able to scroll */
+::-webkit-scrollbar { 
+    display: none; 
+}

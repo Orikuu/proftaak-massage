@@ -24,7 +24,7 @@ $res = $conn->query($selectSQL);
 <title>Care</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+  <nav id="navbar" class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
     <a class="navbar-brand" href="index.php">Care</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -49,7 +49,11 @@ $res = $conn->query($selectSQL);
         </li>
       </ul>
         <div class="dropdown-divider"></div>
-        <div class="navbar-nav ml-auto">
+          <div class="navbar-nav ml-auto ">
+            <label class="switch" id="checkbox-container">
+            <input id="mode" type="checkbox">
+            <span class="slider round"></span>
+          </label>
             <a class="navlogin nav-item nav-link" href="login.php">Login</a>
             <a class="navlogin nav-item nav-link" href="register.php">Register</a>
         </div>
