@@ -19,7 +19,7 @@
         <a class="navcontact nav-item nav-link" href="contact.php">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="navcontact nav-item nav-link" href="afspraak.php">Afspraak</a>
+        <a class="navcontact nav-item nav-link" href="afspraak/index.php">Afspraak</a>
       </li>
     </ul>
     <div class="dropdown-divider"></div>
