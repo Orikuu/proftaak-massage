@@ -10,10 +10,18 @@
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/frontend.css') ?>">
 
+    <link rel="stylesheet" type="text/css" href="<?= asset_url('css/dark-mode.css') ?>">
+
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
     <link rel="icon" sizes="192x192" href="<?= asset_url('assets/img/logo.png') ?>">
 </head>
 <body>
+
+    <label class="switch" id="checkbox-container">
+        <input id="mode" type="checkbox">
+        <span class="slider round"></span>
+    </label>
+
     <div id="main" class="container">
         <div class="wrapper row">
             <div id="success-frame" class="frame-container
@@ -81,7 +89,7 @@
 
     <script src="<?= asset_url('assets/js/frontend_book_success.js') ?>"></script>
     <script src="<?= asset_url('assets/js/general_functions.js') ?>"></script>
-
+    <script src="<?= asset_url('js/main.js') ?>"></script>
     <?php google_analytics_script() ?>
 </body>
 </html>

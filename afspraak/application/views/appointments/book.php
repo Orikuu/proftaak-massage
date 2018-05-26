@@ -7,8 +7,7 @@
     <meta name="theme-color" content="#35A768">
 
     <title><?= lang('page_title') . ' ' .  $company_name ?></title>
-
-    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" type="text/css" href="<?= asset_url('css/dark-mode.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.css') ?>">
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-qtip/jquery.qtip.min.css') ?>">

@@ -45,7 +45,7 @@ $res = $conn->query($selectSQL);
           <a class="navcontact nav-item nav-link" href="contact.php">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="navcontact nav-item nav-link" href="afspraak.php">Afspraak</a>
+          <a class="navcontact nav-item nav-link" href="afspraak/index.php">Afspraak</a>
         </li>
       </ul>
         <div class="dropdown-divider"></div>
@@ -54,8 +54,6 @@ $res = $conn->query($selectSQL);
             <input id="mode" type="checkbox">
             <span class="slider round"></span>
           </label>
-            <a class="navlogin nav-item nav-link" href="login.php">Login</a>
-            <a class="navlogin nav-item nav-link" href="register.php">Register</a>
         </div>
     </div>
   </nav>
