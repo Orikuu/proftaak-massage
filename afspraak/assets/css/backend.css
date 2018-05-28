@@ -155,8 +155,8 @@ body .modal .modal-title {
 
 body .modal-header {
     padding: 12px 15px;
-    background: #39c678;
-    border-bottom: 4px solid #c0f1d6;
+    background: #343a40;
+    border-bottom: 4px solid #212529;
 }
 
 body .modal-header h3 {
@@ -167,7 +167,7 @@ body .modal-header h3 {
 
 body .modal-header .close {
     margin-top: 2px;
-    color: #12482a;
+    color: #212529;
 }
 
 body .modal-content {
@@ -252,7 +252,7 @@ body legend {
 
 .backend-page .filter-records .results .entry.selected {
     background-color: #F4F4F4;
-    border-right: 5px solid #39c678;
+    border-right: 5px solid #454d54;
 }
 
 .backend-page .filter-records .results hr {
@@ -411,7 +411,7 @@ body legend {
 }
 
 #existing-customers-list div:hover {
-    background: #3DD481;
+    background: #454d54;
     font-weight: bold;
     color: #FFF;
     cursor: pointer;
@@ -629,7 +629,7 @@ body .form-horizontal .controls {
 
 #users-page #providers .switch-view .current {
     color: #FFF;
-    background: #39c678;
+    background: #343a40;
 }
 
 #users-page #providers .details-view,

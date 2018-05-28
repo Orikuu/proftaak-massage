@@ -3221,7 +3221,7 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #ffffff;
-  background-color: #35b66f;
+  background-color: #5c6770;
   border-color: transparent;
 }
 .btn-success:focus,
@@ -3417,6 +3417,74 @@ fieldset[disabled] .btn-warning.active {
   color: #dcac3b;
   background-color: #ffffff;
 }
+
+.btn-dark {
+  color: #ffffff;
+  background-color: #35b66f;
+  border-color: transparent;
+}
+.btn-dark:focus,
+.btn-dark.focus {
+  color: #ffffff;
+  background-color: #298f57;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-dark:hover {
+  color: #ffffff;
+  background-color: #298f57;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+  color: #ffffff;
+  background-color: #298f57;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-dark:active:hover,
+.btn-dark.active:hover,
+.open > .dropdown-toggle.btn-dark:hover,
+.btn-dark:active:focus,
+.btn-dark.active:focus,
+.open > .dropdown-toggle.btn-dark:focus,
+.btn-dark:active.focus,
+.btn-dark.active.focus,
+.open > .dropdown-toggle.btn-dark.focus {
+  color: #ffffff;
+  background-color: #217346;
+  border-color: rgba(0, 0, 0, 0);
+}
+.btn-dark:active,
+.btn-dark.active,
+.open > .dropdown-toggle.btn-dark {
+  background-image: none;
+}
+.btn-dark.disabled,
+.btn-dark[disabled],
+fieldset[disabled] .btn-dark,
+.btn-dark.disabled:hover,
+.btn-dark[disabled]:hover,
+fieldset[disabled] .btn-dark:hover,
+.btn-dark.disabled:focus,
+.btn-dark[disabled]:focus,
+fieldset[disabled] .btn-dark:focus,
+.btn-dark.disabled.focus,
+.btn-dark[disabled].focus,
+fieldset[disabled] .btn-dark.focus,
+.btn-dark.disabled:active,
+.btn-dark[disabled]:active,
+fieldset[disabled] .btn-dark:active,
+.btn-dark.disabled.active,
+.btn-dark[disabled].active,
+fieldset[disabled] .btn-dark.active {
+  background-color: #35b66f;
+  border-color: transparent;
+}
+.btn-dark .badge {
+  color: #35b66f;
+  background-color: #ffffff;
+}
+
 .btn-danger {
   color: #ffffff;
   background-color: #dc3b40;
@@ -6893,7 +6961,7 @@ button.close {
   background-position: 50%;
 }
 .btn-primary:focus {
-  background-color: #4790ca;
+  background-color: #3681bc;
 }
 .btn-primary:hover,
 .btn-primary:active:hover {
@@ -6916,17 +6984,17 @@ button.close {
   background-position: 50%;
 }
 .btn-success:focus {
-  background-color: #35b66f;
+  background-color: #454d54;
 }
 .btn-success:hover,
 .btn-success:active:hover {
-  background-color: #2e9e61;
+  background-color: #454d54;
 }
 .btn-success:active {
-  background-color: #278752;
-  background-image: -webkit-radial-gradient(circle, #278752 10%, #35b66f 11%);
-  background-image: -o-radial-gradient(circle, #278752 10%, #35b66f 11%);
-  background-image: radial-gradient(circle, #278752 10%, #35b66f 11%);
+  background-color: #505a62;
+  background-image: -webkit-radial-gradient(circle, #454d54 10%, #5c6770 11%);
+  background-image: -o-radial-gradient(circle, #454d54 10%, #5c6770 11%);
+  background-image: radial-gradient(circle, #454d54 10%, #5c6770 11%);
   background-repeat: no-repeat;
   -webkit-background-size: 1000% 1000%;
           background-size: 1000%;

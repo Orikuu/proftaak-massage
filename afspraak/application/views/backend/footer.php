@@ -1,6 +1,7 @@
 <div id="footer">
+    <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.css') ?>">
     <div id="footer-content" class="col-xs-12 col-sm-6">
-        <span id="select-language" class="label label-success">
+        <span id="select-language" class="label label-dark">
         	<?= ucfirst($this->config->item('language')) ?>
         </span>
         |

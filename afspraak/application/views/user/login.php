@@ -13,7 +13,7 @@
     <script src="<?= asset_url('assets/ext/datejs/date.js') ?>"></script>
 
     <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/jquery-ui/jquery-ui.min.css') ?>">
-    <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
+    <link rel="stylesheet" type="text/css" href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.css') ?>">
 	<link rel="stylesheet" type="text/css" href="<?= asset_url('assets/css/general.css') ?>">
 
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
@@ -24,7 +24,7 @@
             height: 100vh;
             display: table-cell;
             vertical-align: middle;
-            background-color: #CAEDF3;
+            background-color: grey;
         }
 
         #login-frame {
@@ -124,7 +124,7 @@
             <a href="<?= site_url('user/forgot_password') ?>" class="forgot-password">
             	<?= lang('forgot_your_password') ?></a>
             |
-            <span id="select-language" class="label label-success">
+            <span id="select-language" class="label label-dark">
 	        	<?= ucfirst($this->config->item('language')) ?>
 	        </span>
         </form>

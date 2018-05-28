@@ -11,8 +11,7 @@
     <link rel="icon" type="image/x-icon" href="<?= asset_url('assets/img/favicon.ico') ?>">
 
     <script src="<?= asset_url('assets/ext/jquery/jquery.min.js') ?>"></script>
-    <script src="<?= asset_url('assets/ext/bootstrap/js/bootstrap.min.js') ?>"></script>
-
+    <script src="<?= asset_url('assets/ext/bootstrap/js/bootstrap.js') ?>"></script>
     <script>
         var EALang = <?= json_encode($this->lang->language) ?>;
     </script>
@@ -20,7 +19,7 @@
     <link
         rel="stylesheet"
         type="text/css"
-        href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.min.css') ?>">
+        href="<?= asset_url('assets/ext/bootstrap/css/bootstrap.css') ?>">
 
     <style>
         body {
@@ -28,7 +27,7 @@
             height: 100vh;
             display: table-cell;
             vertical-align: middle;
-            background-color: #CAEDF3;
+            background-color: grey;
         }
 
         #logout-frame {
@@ -65,7 +64,7 @@
 
         <br>
 
-        <a href="<?= site_url() ?>" class="btn btn-success btn-large">
+        <a href="<?= site_url() ?>" class="btn btn-dark label-dark">
             <span class="glyphicon glyphicon-calendar"></span>
             <?= lang('book_appointment_title') ?>
         </a>

@@ -14696,7 +14696,7 @@ var BootstrapTheme = Theme.extend({
 		tableList: 'table table-striped', // `table` class creates bottom margin but who cares
 
 		buttonGroup: 'btn-group',
-		button: 'btn btn-default',
+		button: 'btn btn-dark',
 		stateActive: 'active',
 		stateDisabled: 'disabled',
 
