@@ -16,11 +16,11 @@ function saveData(){
     var price = $('#pr').val()
     $.post('server.php?p=add', {id:id, tl:title, dc:description, im:image, pr:price}, function(data){
         viewData()
-        $('#id').val(' ')
-        $('#tl').val(' ')
-        $('#dc').val(' ')
-        $('#im').val(' ')
-        $('#pr').val(' ')
+        $('#id').val('')
+        $('#tl').val('')
+        $('#dc').val('')
+        $('#im').val('')
+        $('#pr').val('')
     })
 }
 
@@ -43,11 +43,11 @@ function updateData(){
     var price = $('#pr').val()
     $.post('server.php?p=update', {id:id, tl:title, dc:description, im:image, pr:price}, function(data){
         viewData()
-        $('#id').val(' ')
-        $('#tl').val(' ')
-        $('#dc').val(' ')
-        $('#im').val(' ')
-        $('#pr').val(' ')
+        $('#id').val('')
+        $('#tl').val('')
+        $('#dc').val('')
+        $('#im').val('')
+        $('#pr').val('')
         $('#id').prop("readonly",false);
         $('#save').prop("disabled",false);
         $('#update').prop("disabled",true);
