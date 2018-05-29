@@ -2,7 +2,6 @@ body {
 	background: #d9a7c7;
 	background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);
 	background: linear-gradient(to top, #fffcdc, #d9a7c7);
-	/*background-image: url("../img/homepage.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +12,9 @@ body {
 	border: 2px solid red;
 }
 .card {
-	height: 110%;
+	height: 100%;
+	margin-bottom: -8px;
+	margin-top: -10px;
 }
 img {
 	margin: 0 auto;

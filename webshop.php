@@ -35,7 +35,7 @@ $res = $conn->query($selectSQL);
             <h5 class="card-title"><?php echo $v['title']; ?></h5>
             <p class="card-text"><?php echo $v['description']; ?></p>
             <img src="./img/<?php echo $v['image']; ?>.jpg">
-            <a href="#" class="btn btn-primary">Add to cart</a>
+            <h5 class="card-title">€ <?php echo $v['price']; ?></h5>
           </div>
         </div>
       </div>

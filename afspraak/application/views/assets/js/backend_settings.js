@@ -146,6 +146,8 @@ window.BackendSettings = window.BackendSettings || {};
                 settings = new SystemSettings();
             } else if (href === '#current-user') {
                 settings = new UserSettings();
+            } else if (href === '#products') {
+                settings = new UserSettings();
 
                 // Apply toggle state to user notifications button.
                 if (areNotificationsActive) {
