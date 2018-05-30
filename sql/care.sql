@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.9
+-- version 4.7.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Gegenereerd op: 07 mei 2018 om 06:50
--- Serverversie: 5.7.19
--- PHP-versie: 7.1.14
+-- Generation Time: May 30, 2018 at 07:41 AM
+-- Server version: 5.7.19
+-- PHP Version: 7.1.7
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,29 +25,29 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `products`
+-- Table structure for table `products`
 --
 
 CREATE TABLE `products` (
+  `id` int(5) NOT NULL,
   `title` varchar(99) NOT NULL,
   `description` text NOT NULL,
   `image` varchar(29) NOT NULL,
-  `price` int(5) NOT NULL,
-  `id` int(5) NOT NULL
+  `price` int(5) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Gegevens worden geëxporteerd voor tabel `products`
+-- Dumping data for table `products`
 --
 
-INSERT INTO `products` (`title`, `description`, `image`, `price`, `id`) VALUES
-('CBD', 'Tim is nummer 1 in coderen', 'cbd', 160, 1),
-('Massage Olie', 'Goeie olie easy stone', 'oil', 80, 2);
+INSERT INTO `products` (`id`, `title`, `description`, `image`, `price`) VALUES
+(1, 'CBD', 'CBD olie', 'CBD', 9),
+(2, 'ANdjsand', 'asjdn', 'cbd', 90);
 
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `treatment`
+-- Table structure for table `treatment`
 --
 
 CREATE TABLE `treatment` (
@@ -58,7 +58,7 @@ CREATE TABLE `treatment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Gegevens worden geëxporteerd voor tabel `treatment`
+-- Dumping data for table `treatment`
 --
 
 INSERT INTO `treatment` (`title`, `description`, `image`, `id`) VALUES
@@ -72,79 +72,58 @@ INSERT INTO `treatment` (`title`, `description`, `image`, `id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Tabelstructuur voor tabel `users`
+-- Table structure for table `users`
 --
 
 CREATE TABLE `users` (
-  `firstname` varchar(99) NOT NULL,
-  `insertion` varchar(99) NOT NULL,
-  `lastname` varchar(99) NOT NULL,
-  `username` varchar(29) NOT NULL,
-  `password` varchar(99) NOT NULL,
-  `id` int(5) NOT NULL
+  `id` int(11) NOT NULL,
+  `first_name` varchar(40) NOT NULL,
+  `last_name` varchar(40) NOT NULL,
+  `email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Gegevens worden geëxporteerd voor tabel `users`
---
-
-INSERT INTO `users` (`firstname`, `insertion`, `lastname`, `username`, `password`, `id`) VALUES
-('Tim', 'van', 'Bree', 'Oriku', '123', 70),
-('', '', '', '', '', 74),
-('Tim', 'va', 'Bree', 'Sens', '123', 77),
-('juan', 'what is insertion', 'pepe', 'maigal', 'maigal', 78),
-('Users', 'test', 'test', 'test', 'test', 79),
-('aaaaaaaaaa', 'aaaaaaaaa', 'aaaaaaaaa', 'testulul', 'aaaaaaaa', 80),
-('AndrÃ©', 'hij', 'werkt', 'goed', 'nu', 81),
-('Tim', 'van', 'Bree', 'Hello', '1234', 82);
-
---
--- Indexen voor geëxporteerde tabellen
+-- Indexes for dumped tables
 --
 
 --
--- Indexen voor tabel `products`
+-- Indexes for table `products`
 --
 ALTER TABLE `products`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `image` (`image`);
+  ADD PRIMARY KEY (`id`);
 
 --
--- Indexen voor tabel `treatment`
+-- Indexes for table `treatment`
 --
 ALTER TABLE `treatment`
   ADD PRIMARY KEY (`id`),
   ADD UNIQUE KEY `image` (`image`);
 
 --
--- Indexen voor tabel `users`
+-- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`),
-  ADD UNIQUE KEY `username` (`username`);
+  ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT voor geëxporteerde tabellen
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT voor een tabel `products`
+-- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
   MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
 --
--- AUTO_INCREMENT voor een tabel `treatment`
+-- AUTO_INCREMENT for table `treatment`
 --
 ALTER TABLE `treatment`
   MODIFY `id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
 --
--- AUTO_INCREMENT voor een tabel `users`
+-- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=83;
-COMMIT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
