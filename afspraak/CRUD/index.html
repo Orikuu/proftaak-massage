@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>One Page CRUD Ajax</title>
+    <title>CRUD</title>
 
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/dataTables.bootstrap.css" rel="stylesheet">
 
@@ -25,12 +25,11 @@
                 <table class="table table-bordered table-striped table-hover">
                     <thead>
                         <tr>
-                            <th>ID</th>
-                            <th>Product</th>
-                            <th>Desc</th>
-                            <th>Image</th>
-                            <th>Price</th>
-                            <th width="100">Action</th>
+                            <th>Naam product</th>
+                            <th>Beschrijving</th>
+                            <th>Afbeelding</th>
+                            <th>Prijs</th>
+                            <th width="100">Actie</th>
                         </tr>
                     </thead>
                     <tbody></tbody>
@@ -38,17 +37,17 @@
             </div>
             <div class="col-md-3">
                 <form id="sidebar">
-                    <div class="form-group">
-                        <label for="id">ID</label>
-                        <input type="id" id="id" name="id" class="form-control" placeholder="ID"/>
+                    <div class="form-group hidden">
+                        <label for="id"></label>
+                        <input id="id" name="id" class="form-control" placeholder="">
                     </div>
                     <div class="form-group">
                         <label for="tl">Naam</label>
-                        <input type="title" id="tl" name="tl" class="form-control" placeholder="Naam"/>
+                        <input id="tl" name="tl" class="form-control" placeholder="Naam"/>
                     </div>
                     <div class="form-group">
                         <label for="dc">Beschrijving</label>
-                        <input type="text" id="dc" name="dc" class="form-control" placeholder="Beschrijving"/>
+                        <input id="dc" name="dc" class="form-control" placeholder="Beschrijving"/>
                     </div>
                     <div class="form-group">
                         <label for="im">Afbeelding</label>
@@ -56,7 +55,7 @@
                     </div>
                     <div class="form-group">
                         <label for="pr">Prijs</label>
-                        <input type="text" id="pr" name="pr" class="form-control" placeholder="Prijs"/>
+                        <textarea id="pr" name="pr" class="form-control" placeholder="Prijs"></textarea>
                     </div>
                     <button type="button" id="save" class="btn btn-primary" onclick="saveData()">Save</button>
                     <button type="button" id="update" class="btn btn-warning" onclick="updateData()">Update</button>
@@ -65,10 +64,10 @@
         </div>
     </div>
 
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jquery.dataTables.js"></script>
-    <script src="assets/js/dataTables.bootstrap.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

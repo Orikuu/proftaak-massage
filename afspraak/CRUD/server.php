@@ -62,7 +62,6 @@ if($page=='add'){
         $stmt->execute();
         while($row = $stmt->fetch()){
             print "<tr>";
-            print "<td>".$row['id']."</td>";
             print "<td>".$row['title']."</td>";
             print "<td>".$row['description']."</td>";
             print "<td>".$row['image']."</td>";

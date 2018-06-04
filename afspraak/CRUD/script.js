@@ -9,14 +9,12 @@ function viewData(){
 }
 
 function saveData(){
-    var id = $('#id').val()
     var title = $('#tl').val()
     var description = $('#dc').val()
     var image = $('#im').val()
     var price = $('#pr').val()
-    $.post('server.php?p=add', {id:id, tl:title, dc:description, im:image, pr:price}, function(data){
+    $.post('server.php?p=add', {tl:title, dc:description, im:image, pr:price}, function(data){
         viewData()
-        $('#id').val('')
         $('#tl').val('')
         $('#dc').val('')
         $('#im').val('')
