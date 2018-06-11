@@ -16,7 +16,7 @@
 
   <div class="maincontainer col-sm-6">
     <div class="box">
-      <img class="avatar" src="./img/Fiji.jpg">
+      <img class="avatar" src="./img/carrie.png">
       <h1>Over Carrie.</h1>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, nobis recusandae. Illo temporibus dolorem, facere optio asperiores ratione expedita. Facilis ab harum impedit voluptatum officia adipisci delectus obcaecati deleniti maxime?</p>
           <!-- Button to send to database -->

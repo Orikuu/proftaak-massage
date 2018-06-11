@@ -424,6 +424,6 @@
         <?php $hidden = ($privileges[PRIV_USER_SETTINGS]['view'] == TRUE) ? '' : 'hidden' ?>
         <div role="tabpanel" class="tab-pane <?= $hidden ?>" id="products">
             <form>
-                
+                a
             </form>
         </div>
