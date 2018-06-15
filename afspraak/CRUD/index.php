@@ -18,7 +18,10 @@
     <![endif]-->
 </head>
 <body>
-    
+    <?php
+require('db.php');
+include("auth.php");
+?>
     <div class="container">
         <div class="row">
             <div class="col-md-9">
@@ -63,7 +66,7 @@
             </div>
         </div>
     </div>
-
+<a href="logout.php">Logout</a>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jquery.dataTables.js"></script>

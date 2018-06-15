@@ -94,6 +94,13 @@
                 </li>
 
                 <li>
+                    <a href="/proftaak-massage/afspraak/CRUD/index.php" class="menu-item"
+                            title="<?= ("Producten editen") ?>">
+                            CRUD
+                    </a>
+                </li>
+
+                <li>
                     <a href="<?= site_url('user/logout') ?>" class="menu-item"
                             title="<?= lang('log_out_hint') ?>">
                         <?= lang('log_out') ?>
