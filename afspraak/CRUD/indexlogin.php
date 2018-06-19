@@ -8,6 +8,7 @@ include("auth.php");
 <meta charset="utf-8">
 <title>Welcome Home</title>
 <link rel="stylesheet" href="css/style.css" />
+<link rel="shortcut icon" href="img/favicon.ico">
 </head>
 <body>
 <div class="form">

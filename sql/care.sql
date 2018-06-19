@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: May 30, 2018 at 07:41 AM
+-- Generation Time: Jun 19, 2018 at 08:09 AM
 -- Server version: 5.7.19
 -- PHP Version: 7.1.7
 
@@ -41,8 +41,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `title`, `description`, `image`, `price`) VALUES
-(1, 'CBD', 'CBD olie', 'CBD', 9),
-(2, 'ANdjsand', 'asjdn', 'cbd', 90);
+(18, 'andre', 'asnd', 'asnd', 15);
 
 -- --------------------------------------------------------
 
@@ -113,7 +112,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `products`
 --
 ALTER TABLE `products`
-  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(5) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 --
 -- AUTO_INCREMENT for table `treatment`
 --

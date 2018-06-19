@@ -9,6 +9,8 @@
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/css/dataTables.bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,11 +64,11 @@ include("auth.php");
                     </div>
                     <button type="button" id="save" class="btn btn-primary" onclick="saveData()">Save</button>
                     <button type="button" id="update" class="btn btn-warning" onclick="updateData()">Update</button>
+<a class="logout btn btn-danger" href="logout.php">Logout</a>
                 </form>
             </div>
         </div>
     </div>
-<a href="logout.php">Logout</a>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.js"></script>
     <script src="assets/js/jquery.dataTables.js"></script>
