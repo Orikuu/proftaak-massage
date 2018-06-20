@@ -2,7 +2,6 @@ body {
 	background: #d9a7c7;
 	background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);
 	background: linear-gradient(to top, #fffcdc, #d9a7c7);
-	/*background-image: url("../img/homepage.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
     background-attachment: fixed;

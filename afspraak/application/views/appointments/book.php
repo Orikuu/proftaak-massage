@@ -311,10 +311,6 @@
                     <span id="select-language" class="label label-dark">
                         <?= ucfirst($this->config->item('language')) ?>
                     </span>
-                    |
-                    <a href="<?= site_url('backend'); ?>">
-                        <?= $this->session->user_id ? lang('backend_section') : lang('login') ?>
-                    </a>
                 </div>
             </div>
         </div>

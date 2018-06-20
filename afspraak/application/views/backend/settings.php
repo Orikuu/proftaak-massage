@@ -44,11 +44,6 @@
                 <a href="#current-user" aria-controls="current-user" role="tab" data-toggle="tab"><?= lang('current_user') ?></a>
             </li>
         <?php endif ?>
-        <?php if ($privileges[PRIV_USER_SETTINGS]['view'] == TRUE): ?>
-            <li role="presentation">
-                <a href="#products" aria-controls="current-user" role="tab" data-toggle="tab">Producten</a>
-            </li>
-        <?php endif ?>
     </ul>
 
     <div class="tab-content">

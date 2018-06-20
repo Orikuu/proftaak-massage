@@ -28,22 +28,19 @@ $res = $conn->query($selectSQL);
   <div class="container">
     <div class="row">
       <?php foreach($res as $v) { ?>
-
       <div class="col-sm-4 mt-5">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title"><?php echo $v['title']; ?></h5>
-            <p class="card-text"><?php echo $v['description']; ?></p>
-            <img src="./img/<?php echo $v['image']; ?>.jpg">
-            <h5 class="card-title">€ <?php echo $v['price']; ?></h5>
+            <p class="card-text desc"><?php echo $v['description']; ?></p>
+            <img class="image img" src="./img/<?php echo $v['image']; ?>.png">
+            <h5 class="card-title price">€ <?php echo $v['price']; ?></h5>
           </div>
         </div>
       </div>
       <?php } ?>
     </div>
   </div>
-
-
   <?php include('./assets/inc/scripts.json') ?>
 </body>
 </html>

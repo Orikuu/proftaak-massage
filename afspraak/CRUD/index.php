@@ -64,7 +64,7 @@ include("auth.php");
                     </div>
                     <button type="button" id="save" class="btn btn-primary" onclick="saveData()">Save</button>
                     <button type="button" id="update" class="btn btn-warning" onclick="updateData()">Update</button>
-<a class="logout btn btn-danger" href="logout.php">Logout</a>
+                    <a class="logout btn btn-danger" href="logout.php">Logout</a>
                 </form>
             </div>
         </div>

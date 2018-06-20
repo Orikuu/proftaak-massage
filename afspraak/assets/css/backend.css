@@ -690,6 +690,9 @@ body .form-horizontal .controls {
 
 /* BACKEND SETTINGS PAGE
    -------------------------------------------------------------------- */
+body{
+    overflow-x: hidden;
+}
 #settings-page h2 {
     color: #525252;
 }

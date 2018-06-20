@@ -9,7 +9,6 @@ body {
 }
 .container {
 	margin: 0 auto;
-	border: 2px solid red;
 }
 .card {
 	height: 100%;
@@ -24,4 +23,15 @@ img {
 	position: absolute;
 	top: 30px;
 	right: 15px;
+}
+.price{
+	position: relative;
+	top: 7px;
+	padding-bottom: 10px;
+	padding-top: 6px;
+}
+.image{
+	height: 150px;
+	width: 150px;
+	object-fit: contain;
 }

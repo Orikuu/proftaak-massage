@@ -3,11 +3,6 @@
         text-align: center;
     }
 }
-#myFooter {
-    background-color: #fff;
-    color: black;
-    padding-top: 30px;
-}
 
 #myFooter .footer-copyright {
     background-color: #333333;
@@ -26,7 +21,7 @@
 }
 
 #myFooter .footer-copyright p {
-    margin: 10px;
+    margin: 28px;
     color: #ccc;
 }
 
@@ -106,5 +101,8 @@
 }
 .goTop {
     margin: 0 auto;
-    color: #007bff !important;
+}
+.goTop img {
+    position: relative;
+    top: -12px;
 }
